@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-container">
+    <div class="form-container">
+        <h1>EmpoweHer google form</h1>
+    <div class="thewholeform" id="registerForm">
+        <div class="btnframe">
+            <button class="registerbtn">Register</button>
+            <button class="loginbtn">Login</button>  
+        </div>
+        <form action="submit.php" method="post">
+            <div class="allinputs">
+                <div class="options"> or register with </div>
+                <div class="allicons">
+                <div class="google icon"> <img  src="./images/devicon_google.png" alt=""></div>
+                <div class="apple icon"> <img  src="./images/uil_apple.png" alt=""> </div>
+                 <div class="facebook icon"> <img  src="./images/logos_facebook.png" alt=""></div>
+            </div>
+            <label for="name">Name*</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email">Email*</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="phone">Password*</label>
+            <br>
+            <input type="tel" name="Password" id="Password" placeholder="create Password" required>
+        
+            <p style="opacity: 0.5;">must be of 8 charachters</p>
+            <br>
+        </div>
+        <button class="startbtn">Get Started</button>
+        </div>
+        <div class="privacy"> By contunuing, you agree to our <a href="#">Terms & Conditions</a>
+    </div>
+</div>
+</form>
+</div>
+</body>
+</html>

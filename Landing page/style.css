@@ -1,0 +1,220 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #C1C5BF;
+    margin-top: 30px;
+}
+.frame{
+    margin-left: 80px;
+}
+.register{
+    margin-right: 80px;
+   
+}
+hr{
+    width: 80rem;
+}
+.middle-content{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+.home-link{
+    text-decoration: none;
+    color: black;
+}
+.referal{
+    text-decoration: none;
+    color: black;
+}
+.prize{
+    text-decoration: none;
+    color: black;
+}
+.terms{
+    text-decoration: none;
+    color: black;
+}
+.section1{
+    text-align: center;
+    margin:  100px auto;
+   
+}
+.cool-data {
+    background: linear-gradient(180deg, #4AC465 0%, #184D47 100%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    
+}
+.description{
+    font-family: "Inter", serif;
+}
+.brief-description{
+    font-family: "DM sans", serif;
+    font-size: 24px;
+}
+.mini-description{
+    font-family: "DM sans", serif;
+    font-size: 30px;
+}
+.btngroup{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.referbtn{
+    background-color: #184D47;
+    width: 172px;
+    height: 56px;
+    border-radius: 10px;
+    font: 16px "DM sans", serif;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Registerbtn{
+   color: #184D47;
+    width: 239px;
+    height: 50px;
+    border: px #A6DC94;
+    border-radius: 10px;
+    font: 16px "DM sans", serif;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/*styling the second html*/
+.form-container{
+background-color: #ccc;
+}
+h1{
+    text-align: center;
+     margin-top: 30px;
+    font-size: 54px;
+}
+form{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 25px;
+    width: 460px;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: #00000014 5px 5px 5px 5px;
+}
+input{
+    height: 45px;
+    width: 350px;
+    outline: none;
+    margin: 0 auto;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0.5px solid #E7E7E7;
+   
+}
+.allinputs{
+    padding: 10px auto;
+    font-family: "Lato";
+  font-weight: 100px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.options{
+    margin: 20px 0px;
+}
+.startbtn{
+    background-color: #06109e;
+    width: 220px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-left: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.btnframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #E7E7E7; 
+    padding: 20px; 
+    border-radius: 40px; 
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+    margin-top: 10px;
+    gap : 40px;
+    margin-top: 90px;
+}
+.registerbtn{
+    width: 113px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 40px;
+    box-shadow: #00000017;
+    cursor: pointer;
+    font-family: "Lato";
+    font-weight: 100px;
+    font-size: 16px;
+}
+.loginbtn{
+    border: none;
+    font-family: "Lato";
+    font-weight: 100px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.privacy{
+    text-align: center;
+    margin-top:  35px;
+    margin-bottom: 80px;
+}
+.allicons{
+    display: flex;
+    align-items: center;
+   
+   
+}
+.icon{
+   background-color: #fff;
+   border: #E7E7E7 1px solid;
+   border-radius: 8px;
+   margin: 10px auto;
+   padding: auto;
+}
+
+.google{
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-left: -2px;
+}
+.apple{
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-left: -25px;
+}
+.facebook{
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-left: -25px;
+    
+}
+.thewholeform{
+    display: none;
+}
+#registerForm{
+    display: block;
+}
