@@ -1,0 +1,154 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", serif;
+}
+.frame, .frame2{
+  background-color: hsl(213, 19%, 18%);
+  background-opacity: 0.5;
+  flex: 1;
+  margin: auto;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  padding: auto;
+  padding-left: 30px;
+  align-items: center;
+  border-radius: 15px;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.starimage img {
+  padding-top: 20px;
+  background-color: hsl(213, 19%, 18%);
+  border:1px ;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 5px hsl(213, 19%, 18%);
+}
+.ratingBtns{
+  display: flex;
+  flex-direction: row;
+  
+}
+.ratingBtns button{
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+
+ width: 40px;
+ height: 40px;
+  color: hsl(217, 12%, 63%);
+  margin: 20px 0;
+  cursor: pointer;
+ 
+}
+.ratingBtns button:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(217, 12%, 63%);
+}
+.ratingBtns button.active{
+ background-color: white;
+}
+.btnone{
+  margin-right:15px;
+}
+.btntwo{
+  margin-right:15px;
+}
+.btnthree{
+  margin-right:15px;
+}
+.btnfour{
+  margin-right:15px;
+}
+.sbtBtn{
+  background-color: hsl(25, 97%, 53%);
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  height: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.sbtBtn:hover{
+  background-color: hsl(0, 0%, 100%);
+ 
+}
+.sbt{
+  padding: 30px auto;
+  padding-bottom: 30px;
+  margin-top: 20px;
+
+}
+.frame2{
+  text-align: center;
+  padding: 30px 0;
+}
+h1{
+  color: hsl(0, 0%, 100%);
+}
+.selectedrate{
+   background-color: hsl(213, 19%, 18%);
+   box-shadow: 2px 2px 3px;
+   width: 180px;
+   height: 25px;
+   border-radius: 35px;
+   padding: auto;
+   margin: auto;
+}
+.selectedrate p{
+  color: hsl(25, 97%, 53%);
+  border: 1px solid hsl(213, 19%, 18%);
+  padding: 5px 0;
+  opacity: 0.8;
+}
+@media (min-width: 1140px) {
+  .frame, .frame2 {
+    width: 350px;
+  }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1139px) {
+  .frame, .frame2 {
+    width: 300px;
+  }
+  .ratingBtns button{
+    width: 30px;
+    height: 30px;
+  }
+  .sbtBtn{
+    width: 200px;
+  }
+  
+}
+@media (max-width: 768px) {
+  .frame, .frame2 {
+    width: 270px;
+  }
+  .ratingBtns button{
+    width: 30px;
+    height: 30px;
+  }
+  .sbtBtn{
+    width: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  .frame, .frame2 {
+    width: 200px;
+  }
+  .ratingBtns button{
+    width: 30px;
+    height: 30px;
+  }
+  .sbtBtn{
+    width: 200px;
+  }
+}
+
+
